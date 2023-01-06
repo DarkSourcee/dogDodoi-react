@@ -1,0 +1,45 @@
+.contact{
+    height: calc(100vh - 70px);
+    background-image: url(/public/img/dog.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contact .FormContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .FormContact .divPai{
+    width: 400px;
+}
+
+.contact .FormContact input{
+    display: block;
+    border-radius: 10px;
+    outline: none;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.contact .FormContact .btn.btn-danger,
+.contact .FormContact input{
+    width: 100%;
+}
+
+@media (max-width: 950px) {
+    .contact{
+        background-image: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact .FormContact .divPai{
+        width: 90%;
+    }
+}

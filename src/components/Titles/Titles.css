@@ -1,0 +1,10 @@
+.Titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Titles p{
+    opacity: 0.5;
+}

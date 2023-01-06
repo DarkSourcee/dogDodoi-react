@@ -1,0 +1,24 @@
+.Banner{
+    background-image: url("/public/img/baner.png");
+    background-position: center center;
+    background-size: cover;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner h1{
+    color: var(--cor-primaria);
+}
+
+.Banner .btn.btn-danger{
+    background-color: var(--cor-primaria);
+}
+
+@media (max-width: 500px){
+    .Banner{
+        height: 50vh;
+    }
+}

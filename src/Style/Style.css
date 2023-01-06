@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+:root{
+    --cor-secundaria: #D8F1FB82;
+    --cor-primaria: #EA1C81;
+    --cor-preta: black;
+    --cor-branca: #fff;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.BemVindo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.BemVindo div{
+    padding: 20px;
+}
+
+.Benef .Titles h2{
+    color: var(--cor-primaria);
+}
+
+.Benef{
+    background-color: var(--cor-secundaria);
+}
+
+.gridCard{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    text-align: center; 
+}
+
+.negrito{
+    font-weight: bold;
+    color: var(--cor-branca);
+}
+
+@media (max-width: 500px) {
+    .gridCard, .BemVindo{
+        display: block;
+    }
+}
